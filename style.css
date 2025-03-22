@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+body{
+    background: linear-gradient(180deg,rgb(86, 187, 237)0%,white 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#button{
+    background-color: rgb(53, 180, 244);
+    width:100px;
+    height:30px;
+    text-align: center;
+    
+}
+#button:hover{
+    background-color: whitesmoke;
+    color:black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px gray;
+}
+.c, .w, .t{
+    margin: 10px;
+}
